@@ -42,9 +42,9 @@ def index():
 
             # Création du message basé sur la prédiction et la probabilité
             message = (
-                f"Risque de défaut ({probability*100:.2f}%) ! Veuillez enquêter plus en détail."
-                if prediction == 1 else
-                f"Aucun risque de défaut détecté ({(1 - probability)*100:.2f}%)."
+                f"Risque de défaut: {probability*100:.2f}%."
+            #    if prediction == 1 else
+            #    f"Aucun risque de défaut détecté ({(1 - probability)*100:.2f}%)."
             )
 
             return render_template("index.html", prediction_text=message)
