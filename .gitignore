@@ -3,5 +3,7 @@
 .DS_Store
 _pycache_/
 *.pyc
+mlflow_experiments/.ipynb_checkpoints/
+
 
 
