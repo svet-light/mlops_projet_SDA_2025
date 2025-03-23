@@ -15,8 +15,9 @@ features = list(data.columns)
 
 mlflow.set_tracking_uri("http://localhost:5001")
 
-model_uri = "models:/Loan_Model_v1/Production"  
+model_uri = "runs:/42cbaee966be49c2a0092ce3eb6a15aa/model"
 model = mlflow.sklearn.load_model(model_uri)
+
 
 
 # Les colonnes utilisées dans le modèle (sans customer_id et default)
