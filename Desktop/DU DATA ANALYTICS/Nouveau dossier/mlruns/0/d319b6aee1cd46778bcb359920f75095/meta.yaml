@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Desktop/DU%20DATA%20ANALYTICS/Nouveau%20dossier/mlruns/0/d319b6aee1cd46778bcb359920f75095/artifacts
+end_time: 1742676541143
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d319b6aee1cd46778bcb359920f75095
+run_name: calm-finch-675
+run_uuid: d319b6aee1cd46778bcb359920f75095
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742676532153
+status: 3
+tags: []
+user_id: User

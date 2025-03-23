@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Desktop/DU%20DATA%20ANALYTICS/Nouveau%20dossier/mlruns/0/394bcabc616f40e4bb069df877ade153/artifacts
+end_time: 1742677308847
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 394bcabc616f40e4bb069df877ade153
+run_name: big-stork-608
+run_uuid: 394bcabc616f40e4bb069df877ade153
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742677308249
+status: 3
+tags: []
+user_id: User

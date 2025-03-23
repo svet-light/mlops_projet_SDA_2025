@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Desktop/DU%20DATA%20ANALYTICS/Cours%20Mlops/projet%20Mlops/mlruns/0/f296f4df7652407294996cb88b0b69e2/artifacts
+end_time: 1742486225030
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f296f4df7652407294996cb88b0b69e2
+run_name: traveling-bat-249
+run_uuid: f296f4df7652407294996cb88b0b69e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742486210940
+status: 3
+tags: []
+user_id: User

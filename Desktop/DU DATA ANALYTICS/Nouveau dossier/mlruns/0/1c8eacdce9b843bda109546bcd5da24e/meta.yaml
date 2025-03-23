@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Desktop/DU%20DATA%20ANALYTICS/Nouveau%20dossier/mlruns/0/1c8eacdce9b843bda109546bcd5da24e/artifacts
+end_time: 1742675770914
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c8eacdce9b843bda109546bcd5da24e
+run_name: stylish-hen-842
+run_uuid: 1c8eacdce9b843bda109546bcd5da24e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742675754260
+status: 3
+tags: []
+user_id: User

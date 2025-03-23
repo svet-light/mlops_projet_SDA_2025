@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Desktop/DU%20DATA%20ANALYTICS/Cours%20Mlops/projet%20Mlops/mlruns/0/af47093400dc4704aba1b05c1af45f0c/artifacts
+end_time: 1742485905359
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af47093400dc4704aba1b05c1af45f0c
+run_name: stylish-auk-743
+run_uuid: af47093400dc4704aba1b05c1af45f0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742485884077
+status: 3
+tags: []
+user_id: User
