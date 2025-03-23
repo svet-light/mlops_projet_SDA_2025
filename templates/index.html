@@ -42,25 +42,25 @@
     <div class="container">
         <h2>Formulaire de prédiction</h2>
         <form method="POST">
-            <label>Lignes de crédit en cours :</label><br>
-            <input type="number" step="any" name="credit_lines_outstanding" required min="0" max="50"><br><br>
+            <label>Lignes de crédit en cours :</label><br/>
+            <input type="number" step="any" name="credit_lines_outstanding" required min="0" max="50"/><br/>
 
-            <label>Montant du prêt en cours :</label><br>
-            <input type="number" step="any" name="loan_amt_outstanding" required min="0" max="1000000"><br><br>
+            <label>Montant du prêt en cours :</label><br/>
+            <input type="number" step="any" name="loan_amt_outstanding" required min="0" max="1000000"/><br/>
 
-            <label>Dette totale en cours :</label><br>
-            <input type="number" step="any" name="total_debt_outstanding" required min="0" max="2000000"><br><br>
+            <label>Dette totale en cours :</label><br/>
+            <input type="number" step="any" name="total_debt_outstanding" required min="0" max="2000000"/><br/>
 
-            <label>Revenu :</label><br>
-            <input type="number" step="any" name="income" required min="10000" max="500000"><br><br>
+            <label>Revenu :</label><br/>
+            <input type="number" step="any" name="income" required min="10000" max="500000"/><br/>
 
-            <label>Années d'expérience :</label><br>
-            <input type="number" step="any" name="years_employed" required min="0" max="50"><br><br>
+            <label>Années d'expérience :</label><br/>
+            <input type="number" step="any" name="years_employed" required min="0" max="50"/><br/>
 
-            <label>Score FICO :</label><br>
-            <input type="number" step="any" name="fico_score" required min="300" max="850"><br><br>
+            <label>Score FICO :</label><br/>
+            <input type="number" step="any" name="fico_score" required min="300" max="850"/><br/>
 
-            <input type="submit" value="Prédire">
+            <input type="submit" value="Prédire"/>
         </form>
 
         {% if prediction_text %}
