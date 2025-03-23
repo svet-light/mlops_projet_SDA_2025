@@ -11,4 +11,6 @@ RUN pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.tx
 #Copy source code to working directory
 COPY .  /app/
 
+EXPOSE 5000
+
 CMD ["python", "app.py"]
