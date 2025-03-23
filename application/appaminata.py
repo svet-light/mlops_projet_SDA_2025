@@ -13,9 +13,9 @@ def load_Loan_Data():
 data = load_Loan_Data()
 features = list(data.columns)
 
-mlflow.set_tracking_uri("http://localhost:5001")
+mlflow.set_tracking_uri("http://localhost:5002")
 
-model_uri = "runs:/42cbaee966be49c2a0092ce3eb6a15aa/model"
+model_uri = "runs:/5c361b69048f4dde88e9992129373b8b/model"
 model = mlflow.sklearn.load_model(model_uri)
 
 
