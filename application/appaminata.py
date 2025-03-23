@@ -6,8 +6,9 @@ import joblib
 
 
 def load_Loan_Data():
-    df = pd.read_csv("Loan_Data.csv", nrows=1)  # Juste une ligne pour récupérer les colonnes
+    df = pd.read_csv("../mlflow_experiments/Loan_Data.csv", nrows=1) 
     return df
+
 
 data = load_Loan_Data()
 features = list(data.columns)
