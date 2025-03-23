@@ -14,9 +14,10 @@ data = load_Loan_Data()
 features = list(data.columns)
 
 mlflow.set_tracking_uri("http://localhost:5001")
-model_uri = "runs:/6f183a91735442af83bd071332dabba9/model"  
 
+model_uri = "models:/Loan_Model_v1/Production"  
 model = mlflow.sklearn.load_model(model_uri)
+
 
 # Les colonnes utilisées dans le modèle (sans customer_id et default)
 features = [ 'credit_lines_outstanding', 'loan_amt_outstanding', 'total_debt_outstanding', 'income', 'years_employed', 'fico_score' ]  # adapte avec tes vraies colonnes
